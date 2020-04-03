@@ -34,6 +34,7 @@ else
         yes | pip3 install scikit-learn
 fi
 
+
 if python3 -c "import pandas" &> /dev/null
 then
         echo "pandas already installed"
@@ -41,6 +42,7 @@ else
         echo "installing pandas"
         yes | pip3 install pandas
 fi
+
 
 if python3 -c "import matplotlib" &> /dev/null
 then
