@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# command YOU need to run is:  chmod +x setup.sh ; ./setup.sh
+
 sudo sudo -V &> /dev/null
 
 if dot -V &> /dev/null
